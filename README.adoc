@@ -1,0 +1,23 @@
+== RAEDME ==
+
+=== Subsection ===
+
+* list
+** indented item
+
+1. numlist
+2. numlist
+
+*bold text*
+
++fixed width+
+
+_italic_
+
+Superscript^something^
+
+Subscript~someting~
+
+[green]#make something green#
+
+
