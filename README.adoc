@@ -1,15 +1,21 @@
-== README
+= README
 
-=== Subsection
+== Try paragraphs
 
-.New list
-1. numlist
-2. numlist
+Normal paragraphs
 
-.Second list
-* list
-** indented item
+ indented by one space and becomes fixed-width boxed text
+ 
+[.lead]
+A lead paragraph (by having a [.lead] tag before it) would be in larger font.
 
+== Test embedding other doc's text here
+
+include::other.adoc[]
+
+include::other.txt[]
+
+== Test out styling
 
 *bold text*
 
@@ -22,5 +28,59 @@ Superscript^something^
 Subscript~someting~
 
 [green]#make something green#
+
+#highlight something#
+
+TIP: TIP
+
+IMPORTANT: IMPORTANT
+
+WARNING: WARNING
+
+CAUTION: CAUTION
+
+== Try different types of lists
+
+.Numbered list
+1. numlist
+2. numlist
+
+.Bullet list
+* list
+** indented item
+
+.Checklist
+* [*] checked
+* [ ] not checked
+* [x] x can also be used to check things
+
+
+== Tables
+
+.Adjustable total width by percentage (e.g., at `width="80%"`)
+[cols="2", options="header", width="80%"]
+|===
+|Header1
+|Header2
+
+|poo
+|poopoo
+
+|boo
+|booboo
+|===
+
+.Adjustable column width by relative col width (e.g., at `cols="1,3"`)
+[cols="1,3", options="header", width="80%"]
+|===
+|Header1
+|Header2
+
+|poo
+|poopoo
+
+|boo
+|booboo
+|===
 
 
