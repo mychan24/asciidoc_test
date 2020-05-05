@@ -1,12 +1,15 @@
-== RAEDME ==
+== README
 
-=== Subsection ===
+=== Subsection
 
+.New list
+1. numlist
+2. numlist
+
+.Second list
 * list
 ** indented item
 
-1. numlist
-2. numlist
 
 *bold text*
 
